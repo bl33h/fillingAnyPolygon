@@ -157,7 +157,7 @@ void fillPolygon(const std::vector<vert>& vertices, const Color& color, std::vec
 void render() {
     std::vector<Color> framebuffer(SCREEN_WIDTH * SCREEN_HEIGHT, Color(0, 0, 0));
     // coordinates array (4th polygon)
-    std::vector<vert> polygon = {
+    std::vector<vert> polygon4 = {
         vert(413.0f, 177.0f),
         vert(448.0f, 159.0f),
         vert(502.0f, 88.0f),
@@ -179,24 +179,24 @@ void render() {
     }; 
 
     // white outline
-    Color polygonColor(255, 255, 255);
+    Color polygonColor4(255, 255, 255);
     // green fill
-    Color polygonFill(0, 255, 0);
-    fillPolygon(polygon, polygonFill, framebuffer);
-    polygonOutline(polygon, polygonColor, framebuffer);
+    Color polygonFill4(0, 255, 0);
+    fillPolygon(polygon4, polygonFill4, framebuffer);
+    polygonOutline(polygon4, polygonColor4, framebuffer);
 
     // 5th polygon
-    std::vector<vert> polygon2 = {
+    std::vector<vert> polygon5 = {
         vert(682.0f, 175.0f),
         vert(708.0f, 120.0f),
         vert(735.0f, 148.0f),
         vert(739.0f, 170.0f)
     };
 
-    Color polygonColor2(255, 255, 255);  
+    Color polygonColor5(255, 255, 255);  
     Color polygonFill5(0, 0, 0);
-    fillPolygon(polygon2, polygonFill5, framebuffer);
-    polygonOutline(polygon2, polygonColor2, framebuffer);
+    fillPolygon(polygon5, polygonFill5, framebuffer);
+    polygonOutline(polygon5, polygonColor5, framebuffer);
     renderBuffer(framebuffer);
 }
  
