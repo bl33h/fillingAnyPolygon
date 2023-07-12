@@ -178,23 +178,25 @@ void render() {
         vert(466.0f, 180.0f)
     }; 
 
-    // white color for the figure
-    Color polygonColor(255, 255, 255);  
+    // white outline
+    Color polygonColor(255, 255, 255);
+    // green fill
     Color polygonFill(0, 255, 0);
     fillPolygon(polygon, polygonFill, framebuffer);
     polygonOutline(polygon, polygonColor, framebuffer);
 
     // 5th polygon
-    std::vector<vert> polygon5 = {
+    std::vector<vert> polygon2 = {
         vert(682.0f, 175.0f),
         vert(708.0f, 120.0f),
         vert(735.0f, 148.0f),
         vert(739.0f, 170.0f)
     };
-    Color polygonColor5(255, 255, 255);  
+
+    Color polygonColor2(255, 255, 255);  
     Color polygonFill5(0, 0, 0);
-    fillPolygon(polygon5, polygonFill5, framebuffer);
-    polygonOutline(polygon5, polygonColor5, framebuffer);
+    fillPolygon(polygon2, polygonFill5, framebuffer);
+    polygonOutline(polygon2, polygonColor2, framebuffer);
     renderBuffer(framebuffer);
 }
 
