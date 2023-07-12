@@ -1,0 +1,3 @@
+C:/Users/sarap/OneDrive/Escritorio/fillingAnyPolygon/build/CMakeFiles/GAME.dir
+C:/Users/sarap/OneDrive/Escritorio/fillingAnyPolygon/build/CMakeFiles/edit_cache.dir
+C:/Users/sarap/OneDrive/Escritorio/fillingAnyPolygon/build/CMakeFiles/rebuild_cache.dir
