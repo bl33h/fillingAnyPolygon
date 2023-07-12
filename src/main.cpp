@@ -199,7 +199,7 @@ void render() {
     polygonOutline(polygon2, polygonColor2, framebuffer);
     renderBuffer(framebuffer);
 }
-
+ 
 int main() {
     clear();
     render();

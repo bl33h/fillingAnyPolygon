@@ -7,7 +7,7 @@ Creation: 06/07/2023
 Last modification: 11/07/2023
 *Some parts were made using the AIs Bard and ChatGPT
 ------------------------------------------------------------------------------*/
-
+ 
 #include <vector>
 #include "colors.h"
 
