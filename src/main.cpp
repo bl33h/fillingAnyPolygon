@@ -168,8 +168,8 @@ void render() {
     Color polygonColor2(255, 255, 255);  
     // blue fill
     Color polygonFill2(255, 0, 0); // backwards config
-    fillPolygon(polygon, polygonFill, framebuffer);
-    polygonOutline(polygon, polygonColor, framebuffer);
+    fillPolygon(polygon2, polygonFill2, framebuffer);
+    polygonOutline(polygon2, polygonColor2, framebuffer);
     renderBuffer(framebuffer);
 }
 
