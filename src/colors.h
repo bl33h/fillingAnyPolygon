@@ -53,5 +53,5 @@ struct Color {
 
     friend Color operator*(float factor, const Color& color) {
         return color * factor;
-    } 
+    }
 };
