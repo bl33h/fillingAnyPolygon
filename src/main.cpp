@@ -170,7 +170,7 @@ void render() {
         vert(193.0f, 383.0f)
     };
 
-    // white for the outline
+    // white for the outline 1st polygon
     Color polygonColor(255, 255, 255);  
     // yellow fill
     Color polygonFill(0, 255, 255); // backwards config
@@ -186,12 +186,27 @@ void render() {
     vert(374, 302)
 };
 
-    // white for the outline
+    // white for the outline 2nd polygon
     Color polygonColor2(255, 255, 255);  
     // blue fill
     Color polygonFill2(255, 0, 0); // backwards config
     fillPolygon(polygon2, polygonFill2, framebuffer);
     polygonOutline(polygon2, polygonColor2, framebuffer);
+    renderBuffer(framebuffer);
+  
+     // coordinates array
+    std::vector<vert> polygon3 = {
+    vert(377, 249),
+    vert(411, 197),
+    vert(436, 249)
+};
+
+    // white for the outline 3rd polygon
+    Color polygonColor3(255, 255, 255);  
+    // red fill
+    Color polygonFill3(0, 0, 255); // backwards config
+    fillPolygon(polygon3, polygonFill3, framebuffer);
+    polygonOutline(polygon3, polygonColor3, framebuffer);
     renderBuffer(framebuffer);
   
   // coordinates array (4th polygon)
