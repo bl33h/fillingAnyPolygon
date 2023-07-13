@@ -1,5 +1,6 @@
 # fillingAnyPolygon
-
+The project utilizes a framebuffer to enable drawing and filling polygons of various shapes and colors. The resulting image is saved in the build folder after running the application. 
+In this branch, the generated bitmap (BMP) file will only contain the star.
 <p align="center">
   <br>
   <img src="https://i.imgur.com/HgDPJO5.png" alt="pic" width="500">
@@ -17,8 +18,7 @@
   - colors.h: defines the Color struct and related functions for manipulating colors.
   - framebuffer.h: contains the framebuffer and related functions for drawing and filling polygons.
   - point.h: defines the vert struct representing a vertex in a polygon.
-  - main.cpp: the main program that uses the framebuffer to render polygons and generate the BMP files, only the star and teapot in this branch.
-  - out.bmp: the bitmap file generated for the teapot polygon.
+  - main.cpp: the main program that uses the framebuffer to render polygons and generate the BMP files.
   - out2.bmp: the bitmap file generated for the star polygon.
 - CMakeLists.txt: the CMake configuration.
 
