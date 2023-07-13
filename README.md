@@ -49,3 +49,5 @@ $ cd build/
 $ make
 $ GAME.exe
 ```
+
+Note: The main branch was created by merging the changes from the following branches: polygon-1, polygon-2, polygon-3, and polygon-4.
